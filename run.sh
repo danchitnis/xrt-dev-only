@@ -9,3 +9,6 @@ apt-get install -y ./xrt.deb
 
 echo -e ""
 echo "Xilinx Runtime installed!"
+echo -e ""
+
+/bin/bash "$@"
